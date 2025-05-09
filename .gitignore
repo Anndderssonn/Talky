@@ -1,0 +1,56 @@
+# Xcode
+*.xcworkspace/
+*.xcproject/
+*.xcuserstate
+*.xcuserdatad
+xcuserdata/
+DerivedData/
+build/
+
+# macOS
+.DS_Store
+
+# Firebase config
+GoogleService-Info.plist
+
+# Configs con claves
+*.xcconfig
+*.env
+
+# Certificados y llaves
+*.p12
+*.mobileprovision
+# (No exportes tu Keychain)
+
+# Bases de datos y caché local
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.realm
+*.log
+
+# Dependencias externas
+Pods/
+Carthage/
+node_modules/
+
+# IDE & editor
+.idea/
+.vscode/
+*.swp
+*~.nib
+
+# JetBrains
+*.iml
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# SwiftPackageManager
+.build/
+
+# Archivos temporales
+*.tmp
+*.bak
